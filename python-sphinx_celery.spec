@@ -1,8 +1,9 @@
+# NOTE: for versions >= 2.0.0 (for python3/Sphinx 2+) see python3-sphinx_celery.spec
 #
 # Conditional build:
 %bcond_with	tests	# unit tests (not included in sdist)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-sphinx_celery.spec)
 
 Summary:	Sphinx Celery theme
 Summary(pl.UTF-8):	Motyw Celery dla Sphinksa
