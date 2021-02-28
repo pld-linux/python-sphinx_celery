@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Motyw Celery dla Sphinksa
 Name:		python-sphinx_celery
 # keep 1.x here for python2/sphinx 1.8 support
 Version:	1.4.8
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinx_celery/
